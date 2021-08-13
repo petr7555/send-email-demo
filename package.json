@@ -1,0 +1,19 @@
+{
+  "name": "send-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "sendmail": "nodemon src/sendmail.js",
+    "smtp": "nodemon src/smtp.js",
+    "smtp-server": "nodemon src/smtp-server.js"
+  },
+  "dependencies": {
+    "nodemailer": "6.6.3",
+    "smtp-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
